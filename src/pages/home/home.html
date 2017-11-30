@@ -1,14 +1,17 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="background">
+	<ion-card>
+		<ion-card-header>
+			Start Playing
+		</ion-card-header>
+		<ion-card-content>
+			<ion-list no-line>
+      <button ion-button block color color="primary" (click)="openFirstPage()">Play</button>
+				<p>OR</p>
+				<button ion-button block color="facebook">
+					<ion-icon name="logo-facebook"></ion-icon> Login into facebook
+        </button>
+        	<button ion-button block outline color="light">Don't have an account? Sign up</button>
+			</ion-list>
+		</ion-card-content>
+	</ion-card>
 </ion-content>
