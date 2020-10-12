@@ -3,6 +3,8 @@ import {NavController, NavParams } from 'ionic-angular';
 import {TabsPage} from '../tabs/tabs';
 
 
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
